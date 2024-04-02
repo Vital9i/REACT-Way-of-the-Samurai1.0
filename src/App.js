@@ -1,13 +1,17 @@
 import React from 'react';
+import './App.css';
+import Header from './components/Header.jsx'
+import Navbar from './components/Navbar.jsx';
+import Profile from './components/Profile.jsx';
 
 const App = () => {
   return (
-    <div>
+    <div className='app-wrapper'>
       <Header />
-      <Technologies />
-      <Footer  />
-      </div> 
-      );
+      <Navbar/>
+      <Profile/>
+    </div >
+  );
 }
 
 export default App;
