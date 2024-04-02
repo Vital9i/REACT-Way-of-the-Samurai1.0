@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
 const App = () => {
   return (
-    <div className="App">
-      <ul>
-        <li>dbsbdb</li>
-      </ul>
-    </div>
-  );
+    <div>
+      <Header />
+      <Technologies />
+      <Footer />
+      </div>
+      );
 }
 
 export default App;
