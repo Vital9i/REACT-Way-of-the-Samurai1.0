@@ -1,0 +1,24 @@
+.wrapper {
+    display: grid;
+    grid-template-areas:
+        "h h";
+
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+}
+
+.item {
+    color: gold;
+}
+
+.item img {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Like img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
