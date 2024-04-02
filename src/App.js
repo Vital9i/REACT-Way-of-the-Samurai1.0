@@ -5,8 +5,8 @@ const App = () => {
     <div>
       <Header />
       <Technologies />
-      <Footer />
-      </div>
+      <Footer  />
+      </div> 
       );
 }
 
