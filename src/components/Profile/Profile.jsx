@@ -4,7 +4,7 @@ import MyPosts from './MyPosts/MyPosts';
 
 const Profile = () => {
     return (
-        <div className={classes.content}>
+        <div>
             <div><img src='https://phuketescape.com/wp-content/uploads/2023/10/sergey-matveev.jpg'></img>
                 <div>
                     ava + description
